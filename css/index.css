@@ -54,11 +54,13 @@ nav{
   }
   
  .cards{
-     display: flex;
+     display: grid;
+     grid-template-columns: auto auto;
+     gap: 50px 0px;
  }
   .intro{
       text-align: center;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-family: ' Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       background-image: url('../images/pizza-house.jpg');
       background-size: cover;
       margin-top: 50px;
@@ -77,14 +79,11 @@ nav{
   a:hover{
     background-color: orange;
 }
-.rowA{
-    text-align: center;
-    padding: 40px;
-}
 .container{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: lightgrey;
-    margin: 120px;
+    margin: 120px 0px;
+    padding: 50px;
+    
 }
