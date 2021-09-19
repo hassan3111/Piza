@@ -57,6 +57,7 @@ nav{
      display: grid;
      grid-template-columns: auto auto;
      gap: 50px 0px;
+     margin-left: 50px;
  }
   .intro{
       text-align: center;
