@@ -1,6 +1,9 @@
 *{
     margin: 0%;
     list-style: none;
+    text-decoration: none;
+
+      
 }
 
 .list {
@@ -14,10 +17,7 @@
 .header{
     background-color: aqua;
 }
-a{
-    text-decoration: none;
-    list-style: none;
-}
+
 
 
 nav{
@@ -41,17 +41,7 @@ nav{
     margin: 0 2vw;
     font-size: 3vh;
   }
-  a{
-    text-decoration: none;
-    
-    
-    color: black;
-    
-    padding: 4px;
 
-    
-    font-family: monospace;
-  }
   
  .cards{
      display: grid;
