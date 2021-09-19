@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    list-style: none;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0%;
+    padding: 30px;
+    margin-bottom: 20px;
+
+}
+.header{
+    background-color: aqua;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+nav{
+    width: 100vw;
+    background-color: coral;
+  }
+  ul{
+    margin-top: 40px;
+    padding-left: 250px;
+    display: flex;
+
+  }
+  
+  body{
+    margin: 0;
+  }
+  li{
+    list-style-type: none;  
+    
+
+    margin: 0 2vw;
+    font-size: 3vh;
+  }
+  a{
+    text-decoration: none;
+    
+    
+    color: black;
+    
+    padding: 4px;
+
+    
+    font-family: monospace;
+  }
+  
+ .cards{
+     display: flex;
+ }
+  .intro{
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-image: url('../images/pizza-house.jpg');
+      background-size: cover;
+      margin-top: 50px;
+  }
+  .menu{
+      text-align: center;
+  }
+  .cards .card-body{
+      background-color: pink;
+      margin-right: 24px;
+  }
+  .cards a{
+      background-color: purple;
+  }
+
+  a:hover{
+    background-color: orange;
+}
+.row {
+    text-align: center;
+}

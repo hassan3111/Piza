@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Piza</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul class="list">
+                <li> <a href="#home">Home</a> </li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#order">Order Now</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header> 
+        
+    <div class="cards">
+        <div class="card" style="width: 28rem;">
+            <img src="../works.webp" class="card-img-top" alt="..." width="90%">
+            <div class="card-body">
+              <h3 class="card-title">works pizza</h3>
+              <p class="card-text">All you need to do is Order!.</p>
+              <a href="#" class="btn btn-primary">Choose Me</a>
+            </div>
+          </div>
+          <div class="card" style="width: 28rem;">
+            <img src="../veggie.webp" class="card-img-top" alt="..." width="90%">
+            <div class="card-body">
+              <h3 class="card-title">veggie pizza</h3>
+              <p class="card-text">All you need to do is Order!.</p>
+              <a href="#" class="btn btn-primary">Choose Me</a>
+            </div>
+          </div>
+          <div class="card" style="width: 28rem;">
+            <img src="../supreme.webp" class="card-img-top" alt="..." width="90%">
+            <div class="card-body">
+              <h3 class="card-title">supreme pizza</h3>
+              <p class="card-text">All you need to do is Order!.</p>
+              <a href="#" class="btn btn-primary">Choose Me</a>
+            </div>
+          </div>
+          <div class="card" style="width: 28rem;">
+            <img src="../pepporoni.webp" class="card-img-top" alt="..." width="90%">
+            <div class="card-body">
+              <h3 class="card-title">pepporoni pizza</h3>
+              <p class="card-text">All you need to do is Order!.</p>
+              <a href="#" class="btn btn-primary">Choose Me</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 28rem;">
+            <img src="../meat pizza.webp" class="card-img-top" alt="..." width="90%">
+            <div class="card-body">
+              <h3 class="card-title">meat pizza</h3>
+              <p class="card-text">All you need to do is Order!.</p>
+              <a href="#" class="btn btn-primary">Choose Me</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 28rem;">
+            <img src="../cheeze.webp" class="card-img-top" alt="..." width="90%">
+            <div class="card-body">
+              <h3 class="card-title">cheese pizza</h3>
+              <p class="card-text">All you need to do is Order!.</p>
+              <a href="#" class="btn btn-primary">Choose Me</a>
+            </div>
+          </div>
+
+    </div>
+
+    <sectiion id="order" class="py-5 bg-white">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-uppercase text-dark mb-0">
+                        <strong>order now</strong>
+                    </h1>
+                    <div class="title-underline bg-danger"></div>
+                    <p class="mt-2 text-capitalize text-muted">Pizza Inn</p>
+
+                </div>
+            </div>
+           
+        
+        <div class="row">
+            <div class="col-md-4 mx-auto py-2">
+                <form id = "myForm">
+                    <div class="checkout-form">
+                        <label for="sel1">Select type:</label>
+                        <select class="form-control" id="type">
+                            <option>works pizza</option>
+                            <option>veggie pizza</option>
+                            <option> supreme pizza</option>
+                            <option> pepporoni pizza</option>
+                            <option>meat pizza</option>
+                            <option>cheese pizza</option>
+                        </select>
+                    </div>
+                    <div class="checkout-form">
+                        <label for="sel1">Select size:</label>
+                        <select class="form-control" id="size">
+                            <option value="1">Large-1000</option>
+                            <option value="2">Medium-500</option>
+                            <option value="3">Small-250</option>
+                        </select>
+                    </div>
+                    <div class="checkout-form">
+                        <label for="sel1"> crust</label>
+                        <select class="form-control" id="crust">
+                            <option>flatbread</option>
+                            <option>thin crust</option>
+                            <option>neaopilitan crust</option>
+                            <option>Chicago deep dish</option>
+                        </select> 
+                    </div>
+                     <div class="checkout-form">
+                        <label for="sel1"> toppings</label>
+                        <select class="form-control" id="top">
+                            <option>spinach</option>
+                            <option>Mushrooms</option>
+                            <option>extra cheese</option>
+                            <option>pineapple</option>
+                            <option>Extra cheese</option>
+                        </select> 
+                    </div>
+                    <div class="checkout-form" required>
+                        <label for="sel1">Quantity</label>
+                        <input type="number" id="qty" class="form-control" min="1" required>
+                    </div>
+                    <div class="checkout-form" required="">
+                        <label for="sel1">Delivery method</label>
+                        <select class="form-control" id="pick">
+                            <option value="1">Self</option>
+                            <option value="2">car delivery</option>
+
+                        </select> 
+                    </div> 
+                     <div class="checkout-form">
+
+                        <button type="submit" class="btn btn-primary btn-block">submit</button>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        </div> 
+
+        <section id="contact" class="py-5  ">
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col text-center">
+                        <h1 class="display-4 text-lowercase text-dark mb-0">
+                            contacts
+                        </h1>
+                        <div class="title-underline bg-primary"></div>
+
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-6 my-3">
+                        <div class="card card-body ">
+                            
+                            <div class="card-title text-center text-white">
+                                <h2 class="text-capitalize">contact us</h2>
+                                <p>send us a message</p>
+
+                            </div>
+                            
+                            <form id="contactForm">
+                                
+                                <div class="checkout-form mt-3">
+                                    <input type="text" class="form-control form-control-lg" id="name" placeholder="name"
+                                        required>
+                                </div>
+                                
+                                <div class="checkout-form mt-3">
+                                    <input type="email" class="form-control form-control-lg " placeholder="email"
+                                        id="email" required>
+                                </div>
+                                
+                                <div class="checkout-form mt-3">
+                                    <input type="text" id="mess" class="form-control" placeholder="write your message here" required>
+                                </div>
+                                <button type="submit"
+                                    class="btn btn-primary btn-block text-uppercase">Submit</button>
+
+                            </form>
+                        </div>
+                    </div>
+        
+    
+
+
+ <script src="js/jquery-3.6.0.js"></script>
+ <script src="js/scripts.js"></script>
+    
+</body>
+</html> 
+</body>
+</html>
