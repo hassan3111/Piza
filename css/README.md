@@ -12,5 +12,3 @@ Javascript
 Bootstrap
 Jquery
 
-# Licence
-This project is under MIT licence
